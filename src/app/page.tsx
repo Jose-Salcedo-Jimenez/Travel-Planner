@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { Playfair_Display } from "next/font/google";
 import About from "@/sections/About";
+import Services from "@/sections/Services";
 const playfairDisplay = Playfair_Display({
   subsets: ["latin"],
   weight: ["400", "700"],
@@ -41,6 +42,7 @@ export default function Home() {
         </main>
       </div>
       <About/>
+      <Services/>
     </>
   );
 }
